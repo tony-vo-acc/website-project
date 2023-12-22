@@ -16,4 +16,5 @@ function no() {
     
     no.style.background = "rgb(225,225,225)";
     no.style.cursor = "not-allowed";
+    no.disabled = true;
 }
