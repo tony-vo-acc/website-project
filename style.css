@@ -1,3 +1,5 @@
+/* Personally I dont know wtf im doing with this code */
+
 @import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
 
 html {
@@ -18,50 +20,14 @@ img {
     width: 125px;
 }
 
-@media screen and (max-width: 450px) {
-    body {
-        margin: 0;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;
-    }
-
-    .çontainer {
-        scale: 175%;
-        display: grid;
-        width: 50%;
-        row-gap: 2%;
-        margin: 0 auto;
-    }
-
-    .button {
-        width: 100%;
-        padding: 10px;
-        text-align: center;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 1.5vh;
-    }
-
-    .text {
-        text-align: center;
-        font-size: 1.25vh;
-    }
-}
-
 @media screen and (min-width: 450px) {
     body {
         display: flex;
-        align-items: center;
         justify-content: center;
-        overflow: hidden;
+        align-items: center;
     }
 
     .çontainer {
-        scale: 150%;
         display: grid;
         width: 50%;
         row-gap: 2%;
@@ -81,5 +47,35 @@ img {
     .text {
         text-align: center;
         font-size: 1.75vw;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .çontainer {
+        display: grid;
+        width: 50%;
+        row-gap: 2%;
+        margin: 0 auto;
+    }
+
+    .button {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1.5vw;
+    }
+
+    .text {
+        text-align: center;
+        font-size: 2.2vw;
     }
 }
